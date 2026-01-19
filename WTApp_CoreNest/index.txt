@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Producto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-brand">
+        <img class="logo" src="../imagenes/wtapp_logo.png" alt="Logo de WTApp">
+      </div>
+      <div class="hero-content">
+        <h1>WTApp: Una app que traduce en tiempo real tus mensajes y llamadas a traves de WhatsApp.</h1>
+        <p class="hero-subtitle">¿Haz querido hablar un segundo idioma sin pasar por el aburrido proceso de una academia?</p>
+        <p class="hero-subtitle">Entiende y comunícate con cualquier persona, en cualquier idioma.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#apoyar">Apoyar este proyecto</a>
+          <a class="btn btn-secondary" href="#demo">Ver Demo / Conoce cómo funciona</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="historia" class="story">
+    <div class="story-layout">
+      <div class="story-text">
+        <h2>La historia detrás del proyecto</h2>
+        <p class="lead">Todo comenzó con un problema simple pero enorme:</p>
+        <p>Primero quisiera empezar dándoles una breve explicación sobre mi aplicación, mi nombre Alejandro Linares; esta idea nace de la necesidad de poder comunicarse a través de mensajes de texto como de llamadas telefónicas pensado tanto para personas que solo dominan su idioma nativo como en mi caso y para personas que podrían comunicarse con personas de otros idiomas en otros países con el propósito de trabajo ya sea para uso personal o para uso empresarial como lo pueden ser Agencias de viajes y operadores turísticos, Freelancers y equipos de soporte multilingüe, Profesionales independientes en comercio exterior o incluso call centers.</p>
+
+        <p>Pero ¿cómo se podría dar una solución a todo esto tomando en cuenta las tecnologías de ahora en día? Me atrevería a decir que no existe actualmente una aplicación que implementa las funciones de mi app ya que funciona tanto para conversaciones desde la misma interfaz de WhatsApp sin interrumpir con la fluidez de la conversación; de la misma manera funciona para llamadas telefónicas permitiendo la traducción de la otra persona al idioma nativo del usuario y poder responder automáticamente lo expresado en el idioma de la otra persona, siempre dentro de la plataforma de WhatsApp.</p>
+      </div>
+      <div class="story-image">
+        <img src="../imagenes/wtappanuncio.jpg" alt="Anuncio WTApp">
+      </div>
+    </div>
+  </section>
+
+  <section id="problema" class="problem">
+    <h2>El Problema</h2>
+    <p>La barrera del idioma afecta a millones:</p>
+    <ul class="list">
+      <li>Viajeros internacionales</li>
+      <li>Migrantes y expatriados</li>
+      <li>Freelancers y profesionales globales</li>
+      <li>Call centers y soporte técnico</li>
+      <li>Estudiantes, profesores y académicos</li>
+      <li>Comunidades multiculturales</li>
+      <li>Empresas con clientes en otros idiomas</li>
+    </ul>
+    <p>Actualmente, WhatsApp —la plataforma de mensajería más grande del mundo— no tiene traducción integrada en chats ni llamadas. Eso genera malentendidos, retrasos y pérdidas económicas.</p>
+  </section>
+
+  <section id="mercado" class="solution">
+    <h2>¿A quién está dirigido WTApp?</h2>
+    <p class="lead">Nuestro mercado está compuesto por más de 2,000 millones de usuarios de WhatsApp que enfrentan barreras idiomáticas:</p>
+    <div class="features">
+      <div class="feature">
+        <h3>Viajeros internacionales</h3>
+        <p>Personas que viajan frecuentemente y necesitan comunicarse en países donde no hablan el idioma local. WTApp les permite entender y ser entendidos sin barreras durante llamadas y mensajes.</p>
+      </div>
+      <div class="feature">
+        <h3>Expatriados y comunidades migrantes</h3>
+        <p>Personas que viven en países extranjeros y mantienen contacto con familiares, amigos o colegas en su idioma natal. La app facilita mantener relaciones internacionales sin malentendidos.</p>
+      </div>
+      <div class="feature">
+        <h3>Profesionales y freelancers globales</h3>
+        <p>Ejecutivos, empleados y trabajadores independientes que hacen negocios con clientes en diferentes idiomas. WTApp optimiza la comunicación en reuniones y chats de trabajo, aumentando la productividad.</p>
+      </div>
+      <div class="feature">
+        <h3>Estudiantes y académicos</h3>
+        <p>Personas en intercambios internacionales o en contacto con colegas en otros países, que necesitan participar en conversaciones académicas en diferentes idiomas.</p>
+      </div>
+      <div class="feature">
+        <h3>Call centers y soporte técnico</h3>
+        <p>Empresas que brindan atención al cliente en múltiples idiomas. WTApp permite a los agentes comunicarse efectivamente sin necesidad de dominar todos los idiomas.</p>
+      </div>
+      <div class="feature">
+        <h3>Comunidades multiculturales</h3>
+        <p>Grupos sociales, vecinos y equipos que hablan distintos idiomas y desean comunicarse de manera efectiva, fortaleciendo la integración y el entendimiento mutuo.</p>
+      </div>
+    </div>
+    <p class="callout">Con presencia inicial en países con alta diversidad de idiomas como Estados Unidos, Brasil, India, Europa y África, el potencial de crecimiento es prácticamente ilimitado.</p>
+  </section>
+
+  <section id="ventaja" class="problem">
+    <h2>¿Por qué WTApp es diferente?</h2>
+    <p class="lead">A diferencia de otras soluciones de traducción disponibles, WTApp ofrece ventajas únicas:</p>
+    <div class="features">
+      <div class="feature">
+        <h3>Integración nativa con WhatsApp</h3>
+        <p>Otras plataformas de traducción requieren que copies y pegues mensajes, cambies de app o uses programas externos. WTApp se integra directamente en WhatsApp mediante burbujas flotantes, sin interrumpir tu conversación.</p>
+      </div>
+      <div class="feature">
+        <h3>Traduce llamadas Y mensajes</h3>
+        <p>Mientras que otras herramientas solo traducen texto o solo funcionan en videollamadas de otras plataformas, WTApp traduce tanto tus chats como tus llamadas de voz de WhatsApp en tiempo real.</p>
+      </div>
+      <div class="feature">
+        <h3>Sin interrupciones en el flujo</h3>
+        <p>No necesitas salir de WhatsApp, abrir otra app, copiar texto o hacer pasos adicionales. Todo sucede automáticamente mientras conversas de forma natural.</p>
+      </div>
+      <div class="feature">
+        <h3>Diseñado específicamente para WhatsApp</h3>
+        <p>Otras soluciones son genéricas. WTApp está optimizado exclusivamente para la plataforma de mensajería más usada del mundo, garantizando una experiencia fluida y contextualizada.</p>
+      </div>
+    </div>
+    <p class="callout">WTApp es la única solución que combina traducción de mensajes y llamadas directamente en WhatsApp, sin cambiar de aplicación ni interrumpir la conversación.</p>
+  </section>
+
+  <section id="solucion" class="solution">
+    <h2>La Solución: WhatsApp Translate+</h2>
+    <p>Una aplicación que se integra directamente a WhatsApp usando burbujas flotantes y pantallas transparentes, permitiendo:</p>
+    <div class="features">
+      <div class="feature">
+        <h3>Traducción de mensajes en tiempo real</h3>
+        <ul class="list">
+          <li>Detecta el idioma automáticamente</li>
+          <li>Traduce al instante debajo de cada mensaje</li>
+          <li>Permite escribir en tu idioma y enviarlo traducido al idioma del otro usuario</li>
+        </ul>
+      </div>
+      <div class="feature">
+        <h3>Traducción de llamadas de WhatsApp</h3>
+        <ul class="list">
+          <li>Transcribe lo que la otra persona dice</li>
+          <li>Muestra subtítulos traducidos en tiempo real</li>
+          <li>Permite responder en tu idioma y la app lo reproduce en el idioma del interlocutor</li>
+        </ul>
+      </div>
+      <div class="feature">
+        <h3>Una interfaz sencilla y lista para usar</h3>
+        <ul class="list">
+          <li>Solo seleccionas los idiomas</li>
+          <li>Activas las burbujas</li>
+          <li>Abres WhatsApp y listo</li>
+          <li>Nadie tiene que hacer nada más.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="apoyar" class="support">
+    <h2>¿Por qué apoyar este proyecto?</h2>
+    <p class="lead">Porque es útil, global y necesario.</p>
+    <ul class="list">
+      <li>Soluciona un problema REAL que afecta a millones.</li>
+      <li>Abre oportunidades económicas a freelancers, negocios y estudiantes.</li>
+      <li>Permite a personas de diferentes culturas comunicarse sin miedo.</li>
+      <li>Es accesible, intuitivo y no requiere conocimientos técnicos.</li>
+    </ul>
+    <p class="callout">Además, este proyecto está siendo desarrollado desde El Salvador, demostrando que la innovación puede surgir desde cualquier parte del mundo.</p>
+  </section>
+
+  <section id="meta" class="problem">
+    <h2>Meta de Financiamiento</h2>
+    <p class="lead">Tu apoyo nos ayudará a lanzar WTApp al mercado global</p>
+    <div class="funding-goal">
+      <div class="goal-amount">
+        <h3>Meta inicial: $15,000 USD</h3>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 0%"></div>
+        </div>
+        <p class="raised">Recaudado: $0 USD (0%)</p>
+      </div>
+    </div>
+    <p class="callout">Cada aporte nos acerca más a eliminar las barreras del idioma para millones de personas.</p>
+  </section>
+
+  <section id="fondos" class="solution">
+    <h2>¿Cómo se usarán los fondos?</h2>
+    <p class="lead">Transparencia total: así se distribuirá cada dólar que aportes</p>
+    <div class="features">
+      <div class="feature">
+        <h3>Desarrollo (40%)</h3>
+        <ul class="list">
+          <li>Finalizar app Android</li>
+          <li>Crear versión iOS</li>
+          <li>Optimización del motor de traducción</li>
+          <li>Contratación de programadores especializados</li>
+        </ul>
+      </div>
+      <div class="feature">
+        <h3>Marketing (35%)</h3>
+        <ul class="list">
+          <li>Campañas en redes sociales</li>
+          <li>Publicidad segmentada</li>
+          <li>Producción de video promocional</li>
+          <li>Estrategia de lanzamiento global</li>
+        </ul>
+      </div>
+      <div class="feature">
+        <h3>Operaciones y QA (15%)</h3>
+        <ul class="list">
+          <li>Testing exhaustivo de la app</li>
+          <li>Servidores y infraestructura</li>
+          <li>Soporte técnico</li>
+          <li>Mantenimiento continuo</li>
+        </ul>
+      </div>
+      <div class="feature">
+        <h3>Legal y estructura (10%)</h3>
+        <ul class="list">
+          <li>Registro de empresa</li>
+          <li>Protección de marca</li>
+          <li>Cumplimiento de privacidad (GDPR, etc.)</li>
+          <li>Asesoría legal internacional</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="confianza" class="problem">
+    <h2>Confianza y Seguridad</h2>
+    <div class="trust-badges">
+      <div class="badge">
+        <h3>Pago seguro</h3>
+        <p>Procesamiento seguro a través de plataformas verificadas</p>
+      </div>
+      <div class="badge">
+        <h3>Desarrollado en El Salvador</h3>
+        <p>Innovación latinoamericana con alcance global</p>
+      </div>
+      <div class="badge">
+        <h3>Compatible con Android</h3>
+        <p>Versión iOS en desarrollo</p>
+      </div>
+      <div class="badge">
+        <h3>Privacidad garantizada</h3>
+        <p>Cumplimiento con estándares internacionales de protección de datos</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="demo" class="demo">
+    <h2>Demo visual / Cómo funciona</h2>
+
+      <!-- Descripción del funcionamiento -->
+  <section>
+    <h2>¿Cómo funciona WTApp?</h2>
+    <p class="lead">Un proceso simple en 4 pasos para comenzar a traducir tus conversaciones:</p>
+    
+    <div class="features">
+      <div class="feature">
+        <h3>Paso 1: Selecciona tu idioma para mensajes</h3>
+        <p>Elige el idioma al que quieres que se traduzcan automáticamente todos los mensajes de texto que recibes. La app detecta el idioma original automáticamente.</p>
+      </div>
+      
+      <div class="feature">
+        <h3>Paso 2: Configura la traducción de llamadas</h3>
+        <p>Selecciona el idioma que habla la otra persona y tu idioma. Durante la llamada, verás subtítulos en tiempo real traducidos automáticamente.</p>
+      </div>
+      
+      <div class="feature">
+        <h3>Paso 3: Otorga los permisos necesarios</h3>
+        <p>La app necesita acceso al micrófono, notificaciones y ventanas flotantes para funcionar. Todo está protegido bajo nuestra política de privacidad.</p>
+      </div>
+      
+      <div class="feature">
+        <h3>Paso 4: ¡Listo para usar!</h3>
+        <p>Activa el Chat Assistant para mensajes o el Call Assistant para llamadas. Abre WhatsApp y comienza a comunicarte sin barreras idiomáticas.</p>
+      </div>
+    </div>
+    
+    <p class="callout">La app funciona con burbujas flotantes y pantallas transparentes que se superponen a WhatsApp, mostrando traducciones instantáneas sin interrumpir tu conversación.</p>
+  </section>
+  
+    <p class="lead">Mira cómo funciona en acción:</p>
+    <div class="media-grid">
+      <div class="gallery">
+        <img class="thumb" src="../imagenes/traducirchat1.png" alt="Traducción en chat - ejemplo 1">
+        <img class="thumb" src="../imagenes/traducirchat2.png" alt="Traducción en chat - ejemplo 2">
+        <img class="thumb" src="../imagenes/calltranslate1.png" alt="Traducción en llamada - ejemplo 1">
+        <img class="thumb" src="../imagenes/calltranslate2.png" alt="Traducción en llamada - ejemplo 2">
+      </div>
+      <div class="media">
+        <video controls class="demo-video">
+          <source src="videos/demo.mp4" type="video/mp4">
+          Tu navegador no soporta video.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section id="recompensas" class="rewards">
+    <h2>¿Qué recibirán los patrocinadores?</h2>
+    <p class="lead">Puedes añadir recompensas voluntarias según el monto:</p>
+    <ul class="list">
+      <li>Acceso anticipado a la app.</li>
+      <li>Versión premium gratis por meses.</li>
+      <li>Acceso a un grupo privado de actualizaciones.</li>
+      <li>Reconocimiento en la web como patrocinador fundador.</li>
+    </ul>
+    <p>Si quieres, puedo ayudarte a diseñar los niveles de aportación.</p>
+  </section>
+
+  <section id="roadmap" class="roadmap">
+    <h2>Hoja de ruta (Roadmap)</h2>
+    <div class="timeline">
+      <div class="milestone"><span class="time">0–2 meses:</span> Finalización Android + pruebas internas.</div>
+      <div class="milestone"><span class="time">3–6 meses:</span> Desarrollo iOS + versión beta pública.</div>
+      <div class="milestone"><span class="time">6–9 meses:</span> Lanzamiento Play Store + campañas globales.</div>
+      <div class="milestone"><span class="time">9–12 meses:</span> Licencias corporativas + soporte multilenguaje ampliado.</div>
+      <div class="milestone"><span class="time">12 meses:</span> Expansión internacional.</div>
+    </div>
+  </section>
+
+  <section id="cta" class="cta">
+    <h2>Tu apoyo impulsa esta innovación</h2>
+    <p>Tu apoyo puede ayudar a lanzar la primera aplicación capaz de traducir WhatsApp en tiempo real, tanto en mensajes como en llamadas. Este proyecto puede cambiar la manera en que nos comunicamos, viajamos, trabajamos y aprendemos.</p>
+    <p><strong>Ayúdame a hacerlo realidad.</strong></p>
+    <div class="actions">
+      <a class="btn btn-primary" href="#apoyar">Apoyar ahora</a>
+    </div>
+  </section>
+
+  <!-- Contacto o botón -->
+  <footer>
+    <p>¿Interesado? Contáctame en <a href="mailto:alejandrolinares6520@gmail.com">alejandrolinares6520@gmail.com</a></p>
+  </footer>
+</body>
+</html>
+
