@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WTApp - Real-time Translation for WhatsApp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Language Switcher -->
+  <div class="language-switcher">
+    <button type="button" id="lang-en" class="lang-btn active" onclick="switchLanguage('en')">EN</button>
+    <button type="button" id="lang-es" class="lang-btn" onclick="switchLanguage('es')">ES</button>
+  </div>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-brand">
+        <img class="logo" src="imagenes/wtapp_logo.png" alt="WTApp Logo">
+      </div>
+      <div class="hero-content">
+        <h1 data-en="WTApp: Real-time translation for your WhatsApp messages and calls." data-es="WTApp: Traducción en tiempo real para tus mensajes y llamadas de WhatsApp.">WTApp: Real-time translation for your WhatsApp messages and calls.</h1>
+        <p class="hero-subtitle" data-en="Break language barriers instantly. Communicate with anyone, in any language." data-es="Rompe las barreras del idioma al instante. Comunícate con cualquier persona, en cualquier idioma.">Break language barriers instantly. Communicate with anyone, in any language.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#demo" data-en="Watch Demo" data-es="Ver Demo">Watch Demo</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Founder Story -->
+  <section id="story" class="story">
+    <h2 data-en="The Story Behind WTApp" data-es="La Historia Detrás de WTApp">The Story Behind WTApp</h2>
+    <div class="story-content">
+      <p data-en="My name is Alejandro Linares, and this idea was born from a simple but enormous problem: the inability to communicate effectively across languages." data-es="Mi nombre es Alejandro Linares, y esta idea nació de un problema simple pero enorme: la incapacidad de comunicarse efectivamente a través de idiomas.">My name is Alejandro Linares, and this idea was born from a simple but enormous problem: the inability to communicate effectively across languages.</p>
+      
+      <p data-en="Like many people who only speak their native language, I faced constant barriers when trying to communicate internationally. But I also saw the same struggle in professionals who needed to work with clients in other countries—travel agencies, freelancers, multilingual support teams, international trade professionals, and call centers." data-es="Como muchas personas que solo hablan su idioma nativo, enfrenté barreras constantes al intentar comunicarme internacionalmente. Pero también vi la misma lucha en profesionales que necesitaban trabajar con clientes en otros países: agencias de viajes, freelancers, equipos de soporte multilingüe, profesionales de comercio exterior y call centers.">Like many people who only speak their native language, I faced constant barriers when trying to communicate internationally. But I also saw the same struggle in professionals who needed to work with clients in other countries—travel agencies, freelancers, multilingual support teams, international trade professionals, and call centers.</p>
+      
+      <p data-en="The question became: How could we solve this using today's technology? I realized that no existing application truly integrates translation directly into WhatsApp—the world's most used messaging platform—without interrupting the natural flow of conversation." data-es="La pregunta se convirtió en: ¿Cómo podríamos resolver esto usando la tecnología actual? Me di cuenta de que ninguna aplicación existente integra verdaderamente la traducción directamente en WhatsApp, la plataforma de mensajería más usada del mundo, sin interrumpir el flujo natural de la conversación.">The question became: How could we solve this using today's technology? I realized that no existing application truly integrates translation directly into WhatsApp—the world's most used messaging platform—without interrupting the natural flow of conversation.</p>
+      
+      <p class="highlight" data-en="WTApp is the answer: seamless translation for both text messages and phone calls, all within WhatsApp's interface. You speak in your language, they hear it in theirs. They speak in their language, you see it translated instantly. No switching apps, no copy-paste, no interruptions." data-es="WTApp es la respuesta: traducción perfecta tanto para mensajes de texto como para llamadas telefónicas, todo dentro de la interfaz de WhatsApp. Hablas en tu idioma, ellos lo escuchan en el suyo. Ellos hablan en su idioma, tú lo ves traducido instantáneamente. Sin cambiar de aplicación, sin copiar y pegar, sin interrupciones.">WTApp is the answer: seamless translation for both text messages and phone calls, all within WhatsApp's interface. You speak in your language, they hear it in theirs. They speak in their language, you see it translated instantly. No switching apps, no copy-paste, no interruptions.</p>
+    </div>
+  </section>
+
+  <!-- What is WTApp -->
+  <section id="about" class="about">
+    <h2 data-en="What is WTApp?" data-es="¿Qué es WTApp?">What is WTApp?</h2>
+    <p class="lead" data-en="WTApp is an Android application that integrates directly with WhatsApp to provide real-time translation of messages and voice calls." data-es="WTApp es una aplicación Android que se integra directamente con WhatsApp para proporcionar traducción en tiempo real de mensajes y llamadas de voz.">WTApp is an Android application that integrates directly with WhatsApp to provide real-time translation of messages and voice calls.</p>
+    
+    <div class="how-it-works">
+      <div class="work-item">
+        <div class="work-number">1</div>
+        <h3 data-en="Install & Configure" data-es="Instalar y Configurar">Install & Configure</h3>
+        <p data-en="Download WTApp, select your preferred languages, and grant necessary permissions. Setup takes less than 2 minutes." data-es="Descarga WTApp, selecciona tus idiomas preferidos y otorga los permisos necesarios. La configuración toma menos de 2 minutos.">Download WTApp, select your preferred languages, and grant necessary permissions. Setup takes less than 2 minutes.</p>
+      </div>
+      <div class="work-item">
+        <div class="work-number">2</div>
+        <h3 data-en="Activate Translation" data-es="Activar Traducción">Activate Translation</h3>
+        <p data-en="Enable chat assistant for messages or call assistant for voice calls. Floating bubbles will appear over WhatsApp when active." data-es="Activa el asistente de chat para mensajes o el asistente de llamadas para llamadas de voz. Aparecerán burbujas flotantes sobre WhatsApp cuando estén activas.">Enable chat assistant for messages or call assistant for voice calls. Floating bubbles will appear over WhatsApp when active.</p>
+      </div>
+      <div class="work-item">
+        <div class="work-number">3</div>
+        <h3 data-en="Communicate Freely" data-es="Comunícate Libremente">Communicate Freely</h3>
+        <p data-en="Chat and call in your language. WTApp automatically detects, translates, and displays messages in real-time. No copy-paste, no switching apps." data-es="Chatea y llama en tu idioma. WTApp detecta, traduce y muestra mensajes automáticamente en tiempo real. Sin copiar y pegar, sin cambiar de aplicación.">Chat and call in your language. WTApp automatically detects, translates, and displays messages in real-time. No copy-paste, no switching apps.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem -->
+  <section id="problem" class="problem">
+    <h2 data-en="The Problem" data-es="El Problema">The Problem</h2>
+    <p data-en="Language barriers affect millions of people worldwide:" data-es="Las barreras del idioma afectan a millones de personas en todo el mundo:">Language barriers affect millions of people worldwide:</p>
+    <ul class="list">
+      <li data-en="International travelers" data-es="Viajeros internacionales">International travelers</li>
+      <li data-en="Expatriates and immigrants" data-es="Expatriados e inmigrantes">Expatriates and immigrants</li>
+      <li data-en="Freelancers and global professionals" data-es="Freelancers y profesionales globales">Freelancers and global professionals</li>
+      <li data-en="Call centers and customer support teams" data-es="Call centers y equipos de atención al cliente">Call centers and customer support teams</li>
+      <li data-en="Students and academics" data-es="Estudiantes y académicos">Students and academics</li>
+      <li data-en="Multicultural communities" data-es="Comunidades multiculturales">Multicultural communities</li>
+      <li data-en="Companies with international clients" data-es="Empresas con clientes internacionales">Companies with international clients</li>
+    </ul>
+    <p data-en="WhatsApp, the world's largest messaging platform, does not offer integrated translation for chats or calls. This creates misunderstandings, delays, and lost opportunities." data-es="WhatsApp, la plataforma de mensajería más grande del mundo, no ofrece traducción integrada para chats o llamadas. Esto crea malentendidos, retrasos y oportunidades perdidas.">WhatsApp, the world's largest messaging platform, does not offer integrated translation for chats or calls. This creates misunderstandings, delays, and lost opportunities.</p>
+  </section>
+
+  <!-- Solution -->
+  <section id="solution" class="solution">
+    <h2 data-en="The Solution: WTApp" data-es="La Solución: WTApp">The Solution: WTApp</h2>
+    <p data-en="WTApp integrates seamlessly with WhatsApp using floating bubbles and overlays, enabling:" data-es="WTApp se integra perfectamente con WhatsApp usando burbujas flotantes y superposiciones, permitiendo:">WTApp integrates seamlessly with WhatsApp using floating bubbles and overlays, enabling:</p>
+    <div class="features">
+      <div class="feature">
+        <h3 data-en="Real-time chat translation" data-es="Traducción de chats en tiempo real">Real-time chat translation</h3>
+        <ul class="list">
+          <li data-en="Automatic language detection" data-es="Detección automática de idioma">Automatic language detection</li>
+          <li data-en="Instant translation under each message" data-es="Traducción instantánea debajo de cada mensaje">Instant translation under each message</li>
+          <li data-en="Write in your language and send translated text" data-es="Escribe en tu idioma y envía texto traducido">Write in your language and send translated text</li>
+        </ul>
+      </div>
+      <div class="feature">
+        <h3 data-en="Real-time call translation" data-es="Traducción de llamadas en tiempo real">Real-time call translation</h3>
+        <ul class="list">
+          <li data-en="Transcribes the other person's speech" data-es="Transcribe el habla de la otra persona">Transcribes the other person's speech</li>
+          <li data-en="Shows live translated subtitles" data-es="Muestra subtítulos traducidos en vivo">Shows live translated subtitles</li>
+          <li data-en="Respond in your language, WTApp speaks in theirs" data-es="Responde en tu idioma, WTApp habla en el suyo">Respond in your language, WTApp speaks in theirs</li>
+        </ul>
+      </div>
+      <div class="feature">
+        <h3 data-en="Frictionless experience" data-es="Experiencia sin fricciones">Frictionless experience</h3>
+        <ul class="list">
+          <li data-en="No switching apps" data-es="Sin cambiar de aplicación">No switching apps</li>
+          <li data-en="No copy-paste" data-es="Sin copiar y pegar">No copy-paste</li>
+          <li data-en="Everything happens naturally inside WhatsApp" data-es="Todo sucede naturalmente dentro de WhatsApp">Everything happens naturally inside WhatsApp</li>
+        </ul>
+      </div>
+    </div>
+    <p class="callout" data-en="WTApp is the only solution combining translation for both messages and calls directly inside WhatsApp." data-es="WTApp es la única solución que combina traducción tanto para mensajes como para llamadas directamente dentro de WhatsApp.">WTApp is the only solution combining translation for both messages and calls directly inside WhatsApp.</p>
+  </section>
+
+  <!-- Market -->
+  <section id="market" class="market">
+    <h2 data-en="Target Market" data-es="Mercado Objetivo">Target Market</h2>
+    <p class="lead" data-en="Over 2 billion WhatsApp users face language barriers. WTApp addresses this global need." data-es="Más de 2 mil millones de usuarios de WhatsApp enfrentan barreras del idioma. WTApp aborda esta necesidad global.">Over 2 billion WhatsApp users face language barriers. WTApp addresses this global need.</p>
+    <div class="features">
+      <div class="feature">
+        <h3 data-en="Travelers" data-es="Viajeros">Travelers</h3>
+        <p data-en="Communicate abroad without learning the local language." data-es="Comunícate en el extranjero sin aprender el idioma local.">Communicate abroad without learning the local language.</p>
+      </div>
+      <div class="feature">
+        <h3 data-en="Expatriates" data-es="Expatriados">Expatriates</h3>
+        <p data-en="Stay connected with family and colleagues across languages." data-es="Mantente conectado con familia y colegas a través de idiomas.">Stay connected with family and colleagues across languages.</p>
+      </div>
+      <div class="feature">
+        <h3 data-en="Global professionals" data-es="Profesionales globales">Global professionals</h3>
+        <p data-en="Freelancers and businesses working with international clients." data-es="Freelancers y empresas trabajando con clientes internacionales.">Freelancers and businesses working with international clients.</p>
+      </div>
+      <div class="feature">
+        <h3 data-en="Call centers" data-es="Call centers">Call centers</h3>
+        <p data-en="Customer support teams serving multilingual clients." data-es="Equipos de atención al cliente sirviendo a clientes multilingües.">Customer support teams serving multilingual clients.</p>
+      </div>
+    </div>
+    <p class="callout" data-en="Initial focus: diverse language markets such as the US, Brazil, India, Europe, and Africa." data-es="Enfoque inicial: mercados de idiomas diversos como EE.UU., Brasil, India, Europa y África.">Initial focus: diverse language markets such as the US, Brazil, India, Europe, and Africa.</p>
+  </section>
+
+  <!-- Technology -->
+  <section id="technology" class="technology">
+    <h2 data-en="Technology" data-es="Tecnología">Technology</h2>
+    <p class="lead" data-en="Built with cutting-edge technology for privacy, speed, and accuracy." data-es="Construido con tecnología de vanguardia para privacidad, velocidad y precisión.">Built with cutting-edge technology for privacy, speed, and accuracy.</p>
+    <div class="features">
+      <div class="feature">
+        <h3 data-en="Offline Voice Recognition" data-es="Reconocimiento de Voz Offline">Offline Voice Recognition</h3>
+        <p data-en="Powered by Vosk, an open-source speech recognition engine that works entirely on your device. Your conversations never leave your phone, ensuring complete privacy." data-es="Impulsado por Vosk, un motor de reconocimiento de voz de código abierto que funciona completamente en tu dispositivo. Tus conversaciones nunca salen de tu teléfono, garantizando privacidad total.">Powered by Vosk, an open-source speech recognition engine that works entirely on your device. Your conversations never leave your phone, ensuring complete privacy.</p>
+      </div>
+      <div class="feature">
+        <h3 data-en="20 Languages Supported" data-es="20 Idiomas Soportados">20 Languages Supported</h3>
+        <p data-en="Spanish, English, French, German, Italian, Portuguese, Russian, Chinese, Japanese, Korean, Arabic, Hindi, Dutch, Turkish, Polish, Thai, Vietnamese, Indonesian, Malay, and Swedish." data-es="Español, Inglés, Francés, Alemán, Italiano, Portugués, Ruso, Chino, Japonés, Coreano, Árabe, Hindi, Neerlandés, Turco, Polaco, Tailandés, Vietnamita, Indonesio, Malayo y Sueco.">Spanish, English, French, German, Italian, Portuguese, Russian, Chinese, Japanese, Korean, Arabic, Hindi, Dutch, Turkish, Polish, Thai, Vietnamese, Indonesian, Malay, and Swedish.</p>
+      </div>
+      <div class="feature">
+        <h3 data-en="Native Android Integration" data-es="Integración Nativa en Android">Native Android Integration</h3>
+        <p data-en="Uses Android Accessibility Services to seamlessly integrate with WhatsApp. Floating bubbles appear over your chats and calls without interrupting your experience." data-es="Utiliza los Servicios de Accesibilidad de Android para integrarse perfectamente con WhatsApp. Las burbujas flotantes aparecen sobre tus chats y llamadas sin interrumpir tu experiencia.">Uses Android Accessibility Services to seamlessly integrate with WhatsApp. Floating bubbles appear over your chats and calls without interrupting your experience.</p>
+      </div>
+      <div class="feature">
+        <h3 data-en="Real-time Translation API" data-es="API de Traducción en Tiempo Real">Real-time Translation API</h3>
+        <p data-en="Powered by DeepL API, known for superior translation quality. Delivers accurate, context-aware translations in milliseconds with automatic language detection." data-es="Impulsado por la API de DeepL, conocida por su calidad de traducción superior. Ofrece traducciones precisas y contextuales en milisegundos con detección automática de idioma.">Powered by DeepL API, known for superior translation quality. Delivers accurate, context-aware translations in milliseconds with automatic language detection.</p>
+      </div>
+    </div>
+    <p class="callout" data-en="Privacy-first design: Voice recognition happens on your device. Only text is sent for translation, never audio." data-es="Diseño centrado en la privacidad: El reconocimiento de voz ocurre en tu dispositivo. Solo se envía texto para traducción, nunca audio.">Privacy-first design: Voice recognition happens on your device. Only text is sent for translation, never audio.</p>
+    <div class="tech-note">
+      <h4 data-en="Investment Opportunity" data-es="Oportunidad de Inversión">Investment Opportunity</h4>
+      <p data-en="With strategic investment, we can integrate premium commercial APIs (Google Cloud Translation, Microsoft Translator) to enhance translation quality and add enterprise features like custom glossaries, industry-specific terminology, and advanced analytics." data-es="Con inversión estratégica, podemos integrar APIs comerciales premium (Google Cloud Translation, Microsoft Translator) para mejorar la calidad de traducción y agregar funciones empresariales como glosarios personalizados, terminología específica de la industria y análisis avanzados.">With strategic investment, we can integrate premium commercial APIs (Google Cloud Translation, Microsoft Translator) to enhance translation quality and add enterprise features like custom glossaries, industry-specific terminology, and advanced analytics.</p>
+    </div>
+  </section>
+
+  <!-- Business Model -->
+  <section id="business" class="business">
+    <h2 data-en="Business Model" data-es="Modelo de Negocio">Business Model</h2>
+    <p class="lead" data-en="Flexible pricing for individuals and businesses." data-es="Precios flexibles para individuos y empresas.">Flexible pricing for individuals and businesses.</p>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <h3 data-en="Free Plan" data-es="Plan Gratuito">Free Plan</h3>
+        <div class="price">
+          <span class="currency">$</span>
+          <span class="amount">0</span>
+          <span class="period" data-en="/month" data-es="/mes">/month</span>
+        </div>
+        <ul class="pricing-features">
+          <li data-en="100 translations per month" data-es="100 traducciones por mes">100 translations per month</li>
+          <li data-en="Message translation" data-es="Traducción de mensajes">Message translation</li>
+          <li data-en="Basic call translation" data-es="Traducción básica de llamadas">Basic call translation</li>
+          <li data-en="Ad-supported" data-es="Con publicidad">Ad-supported</li>
+        </ul>
+      </div>
+      <div class="pricing-card featured">
+        <div class="badge" data-en="Most Popular" data-es="Más Popular">Most Popular</div>
+        <h3 data-en="Premium Plan" data-es="Plan Premium">Premium Plan</h3>
+        <div class="price">
+          <span class="currency">$</span>
+          <span class="amount">2.99</span>
+          <span class="period" data-en="/month" data-es="/mes">/month</span>
+        </div>
+        <ul class="pricing-features">
+          <li data-en="Unlimited translations" data-es="Traducciones ilimitadas">Unlimited translations</li>
+          <li data-en="All 20 languages" data-es="Los 20 idiomas">All 20 languages</li>
+          <li data-en="HD call translation" data-es="Traducción de llamadas HD">HD call translation</li>
+          <li data-en="No ads" data-es="Sin publicidad">No ads</li>
+          <li data-en="Priority support" data-es="Soporte prioritario">Priority support</li>
+        </ul>
+      </div>
+      <div class="pricing-card">
+        <h3 data-en="Business Plan" data-es="Plan Empresarial">Business Plan</h3>
+        <div class="price">
+          <span class="currency">$</span>
+          <span class="amount">599</span>
+          <span class="period" data-en="/month" data-es="/mes">/month</span>
+        </div>
+        <ul class="pricing-features">
+          <li data-en="Up to 50 team licenses" data-es="Hasta 50 licencias de equipo">Up to 50 team licenses</li>
+          <li data-en="Custom integrations" data-es="Integraciones personalizadas">Custom integrations</li>
+          <li data-en="Analytics dashboard" data-es="Panel de análisis">Analytics dashboard</li>
+          <li data-en="SLA guarantee" data-es="Garantía SLA">SLA guarantee</li>
+          <li data-en="Dedicated account manager" data-es="Gerente de cuenta dedicado">Dedicated account manager</li>
+        </ul>
+      </div>
+    </div>
+    <p class="callout" data-en="Ideal for call centers, travel agencies, and companies with international teams." data-es="Ideal para call centers, agencias de viajes y empresas con equipos internacionales.">Ideal for call centers, travel agencies, and companies with international teams.</p>
+  </section>
+
+  <!-- Unique Value -->
+  <section id="value" class="value">
+    <h2 data-en="Why WTApp is Unique" data-es="Por Qué WTApp es Único">Why WTApp is Unique</h2>
+    
+    <!-- Comparison Table -->
+    <div class="comparison-table">
+      <h3 data-en="WTApp vs. Competitors" data-es="WTApp vs. Competidores">WTApp vs. Competitors</h3>
+      <table>
+        <thead>
+          <tr>
+            <th data-en="Feature" data-es="Característica">Feature</th>
+            <th>WTApp</th>
+            <th>Google Translate</th>
+            <th data-en="Other Apps" data-es="Otras Apps">Other Apps</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-en="WhatsApp Integration" data-es="Integración con WhatsApp">WhatsApp Integration</td>
+            <td class="check">✓ Native</td>
+            <td class="cross">✗ Copy-paste</td>
+            <td class="cross">✗ External</td>
+          </tr>
+          <tr>
+            <td data-en="Message Translation" data-es="Traducción de Mensajes">Message Translation</td>
+            <td class="check">✓ Automatic</td>
+            <td class="partial">~ Manual</td>
+            <td class="check">✓ Yes</td>
+          </tr>
+          <tr>
+            <td data-en="Call Translation" data-es="Traducción de Llamadas">Call Translation</td>
+            <td class="check">✓ Real-time</td>
+            <td class="cross">✗ No</td>
+            <td class="cross">✗ Limited</td>
+          </tr>
+          <tr>
+            <td data-en="Offline Recognition" data-es="Reconocimiento Offline">Offline Recognition</td>
+            <td class="check">✓ Vosk</td>
+            <td class="cross">✗ Online only</td>
+            <td class="cross">✗ No</td>
+          </tr>
+          <tr>
+            <td data-en="Privacy" data-es="Privacidad">Privacy</td>
+            <td class="check">✓ On-device</td>
+            <td class="partial">~ Cloud-based</td>
+            <td class="partial">~ Varies</td>
+          </tr>
+          <tr>
+            <td data-en="No App Switching" data-es="Sin Cambiar Apps">No App Switching</td>
+            <td class="check">✓ Seamless</td>
+            <td class="cross">✗ Required</td>
+            <td class="cross">✗ Required</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <h3 data-en="Native integration" data-es="Integración nativa">Native integration</h3>
+        <p data-en="No external apps or copy-paste required." data-es="No se requieren aplicaciones externas ni copiar y pegar.">No external apps or copy-paste required.</p>
+      </div>
+      <div class="feature">
+        <h3 data-en="Messages and calls" data-es="Mensajes y llamadas">Messages and calls</h3>
+        <p data-en="Unlike competitors, WTApp translates both text and voice calls." data-es="A diferencia de los competidores, WTApp traduce tanto texto como llamadas de voz.">Unlike competitors, WTApp translates both text and voice calls.</p>
+      </div>
+      <div class="feature">
+        <h3 data-en="Optimized for WhatsApp" data-es="Optimizado para WhatsApp">Optimized for WhatsApp</h3>
+        <p data-en="Designed specifically for the world's most used messaging platform." data-es="Diseñado específicamente para la plataforma de mensajería más usada del mundo.">Designed specifically for the world's most used messaging platform.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Market Size -->
+  <section id="market-size" class="market-size">
+    <h2 data-en="Market Opportunity" data-es="Oportunidad de Mercado">Market Opportunity</h2>
+    <div class="market-stats">
+      <div class="stat-card">
+        <div class="stat-number">$56B</div>
+        <div class="stat-label" data-en="Global Translation Market (2024)" data-es="Mercado Global de Traducción (2024)">Global Translation Market (2024)</div>
+        <div class="stat-growth" data-en="Growing at 6.5% annually" data-es="Creciendo 6.5% anualmente">Growing at 6.5% annually</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">2B+</div>
+        <div class="stat-label" data-en="WhatsApp Active Users" data-es="Usuarios Activos de WhatsApp">WhatsApp Active Users</div>
+        <div class="stat-growth" data-en="Most used messaging app globally" data-es="App de mensajería más usada globalmente">Most used messaging app globally</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">75%</div>
+        <div class="stat-label" data-en="Of Internet Users" data-es="De Usuarios de Internet">Of Internet Users</div>
+        <div class="stat-growth" data-en="Face language barriers online" data-es="Enfrentan barreras de idioma en línea">Face language barriers online</div>
+      </div>
+    </div>
+    <p class="callout" data-en="TAM (Total Addressable Market): $8.4B in mobile translation services. SAM (Serviceable Available Market): $2.1B for WhatsApp-specific solutions. SOM (Serviceable Obtainable Market): $210M in first 3 years." data-es="TAM (Mercado Total Direccionable): $8.4B en servicios de traducción móvil. SAM (Mercado Disponible Servible): $2.1B para soluciones específicas de WhatsApp. SOM (Mercado Obtenible Servible): $210M en los primeros 3 años.">TAM (Total Addressable Market): $8.4B in mobile translation services. SAM (Serviceable Available Market): $2.1B for WhatsApp-specific solutions. SOM (Serviceable Obtainable Market): $210M in first 3 years.</p>
+  </section>
+
+  <!-- Traction -->
+  <section id="traction" class="traction">
+    <h2 data-en="Current Status & Validation" data-es="Estado Actual y Validación">Current Status & Validation</h2>
+    <div class="traction-grid">
+      <div class="traction-item">
+        <div class="traction-icon">✓</div>
+        <h3 data-en="Functional MVP" data-es="MVP Funcional">Functional MVP</h3>
+        <p data-en="Fully working Android application with message and call translation capabilities." data-es="Aplicación Android completamente funcional con capacidades de traducción de mensajes y llamadas.">Fully working Android application with message and call translation capabilities.</p>
+      </div>
+      <div class="traction-item">
+        <div class="traction-icon">✓</div>
+        <h3 data-en="Beta Testing" data-es="Pruebas Beta">Beta Testing</h3>
+        <p data-en="Successfully tested with early users, validating core functionality and user experience." data-es="Probado exitosamente con usuarios tempranos, validando funcionalidad principal y experiencia de usuario.">Successfully tested with early users, validating core functionality and user experience.</p>
+      </div>
+      <div class="traction-item">
+        <div class="traction-icon">✓</div>
+        <h3 data-en="CoreNest Applicant" data-es="Aplicante CoreNest">CoreNest Applicant</h3>
+        <p data-en="Selected for evaluation in CoreNest Accelerator 2025, competing among high-quality regional startups." data-es="Seleccionado para evaluación en CoreNest Accelerator 2025, compitiendo entre startups regionales de alta calidad.">Selected for evaluation in CoreNest Accelerator 2025, competing among high-quality regional startups.</p>
+      </div>
+      <div class="traction-item">
+        <div class="traction-icon">⚡</div>
+        <h3 data-en="Ready to Scale" data-es="Listo para Escalar">Ready to Scale</h3>
+        <p data-en="Technology proven, business model defined, awaiting investment to launch commercially and expand to iOS." data-es="Tecnología probada, modelo de negocio definido, esperando inversión para lanzar comercialmente y expandir a iOS.">Technology proven, business model defined, awaiting investment to launch commercially and expand to iOS.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roadmap -->
+  <section id="roadmap" class="roadmap">
+    <h2 data-en="Roadmap" data-es="Hoja de Ruta">Roadmap</h2>
+    <div class="timeline">
+      <div class="milestone"><span class="time">0–4 <span data-en="months" data-es="meses">months</span>:</span> <span data-en="Finalize Android MVP + internal testing." data-es="Finalizar MVP de Android + pruebas internas.">Finalize Android MVP + internal testing.</span></div>
+      <div class="milestone"><span class="time">4–6 <span data-en="months" data-es="meses">months</span>:</span> <span data-en="Develop iOS version + public beta." data-es="Desarrollar versión iOS + beta pública.">Develop iOS version + public beta.</span></div>
+      <div class="milestone"><span class="time">6–9 <span data-en="months" data-es="meses">months</span>:</span> <span data-en="Launch on Play Store + global campaigns." data-es="Lanzamiento en Play Store + campañas globales.">Launch on Play Store + global campaigns.</span></div>
+      <div class="milestone"><span class="time">9–12 <span data-en="months" data-es="meses">months</span>:</span> <span data-en="Corporate licenses + expanded language support." data-es="Licencias corporativas + soporte de idiomas ampliado.">Corporate licenses + expanded language support.</span></div>
+      <div class="milestone"><span class="time">12 <span data-en="months" data-es="meses">months</span>:</span> <span data-en="International expansion." data-es="Expansión internacional.">International expansion.</span></div>
+    </div>
+  </section>
+
+  <!-- Demo -->
+  <section id="demo" class="demo">
+    <h2 data-en="Demo" data-es="Demostración">Demo</h2>
+    <p class="lead" data-en="See WTApp in action:" data-es="Mira WTApp en acción:">See WTApp in action:</p>
+    <div class="videos-container">
+      <div class="video-wrapper">
+        <h3 data-en="Message Translation" data-es="Traducción de Mensajes">Message Translation</h3>
+        <iframe 
+          class="demo-video-vertical" 
+          src="https://drive.google.com/file/d/1S7H9HoHGeqkDxcLcTiPt3_Sln53ElydO/preview" 
+          allow="autoplay"
+          allowfullscreen
+          title="WTApp Message Translation Demo">
+        </iframe>
+        <p class="video-description" data-en="Automatically translates chats, displaying the original text and its translation right below. Also allows you to send messages in your language and have them arrive translated to the recipient's language." data-es="Traduce automáticamente los chats, mostrando el texto original y su traducción justo debajo. También te permite enviar mensajes en tu idioma y que lleguen traducidos al idioma del destinatario.">Automatically translates chats, displaying the original text and its translation right below. Also allows you to send messages in your language and have them arrive translated to the recipient's language.</p>
+      </div>
+      <div class="video-wrapper">
+        <h3 data-en="Call Translation" data-es="Traducción de Llamadas">Call Translation</h3>
+        <iframe 
+          class="demo-video-vertical" 
+          src="https://drive.google.com/file/d/1-Crr1tue25BqDi5QnIhADU296Y-P-YiW/preview" 
+          allow="autoplay"
+          allowfullscreen
+          title="WTApp Call Translation Demo">
+        </iframe>
+        <p class="video-description" data-en="During a call, the app transcribes what the other person says and displays translated subtitles instantly, making it easy to understand without needing to master both languages." data-es="Durante una llamada, la aplicación transcribe lo que dice la otra persona y muestra subtítulos traducidos al instante, facilitando la comprensión sin necesidad de dominar ambos idiomas.">During a call, the app transcribes what the other person says and displays translated subtitles instantly, making it easy to understand without needing to master both languages.</p>
+      </div>
+    </div>
+    <div class="gallery">
+      <img class="thumb" src="imagenes/traducirchat1.png" alt="Chat translation example 1">
+      <img class="thumb" src="imagenes/traducirchat2.png" alt="Chat translation example 2">
+      <img class="thumb" src="imagenes/calltranslate1.png" alt="Call translation example 1">
+      <img class="thumb" src="imagenes/calltranslate2.png" alt="Call translation example 2">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <footer id="contact">
+    <p><span data-en="Interested in WTApp? Contact us at" data-es="¿Interesado en WTApp? Contáctanos en">Interested in WTApp? Contact us at</span> <a href="mailto:alejandrolinares6520@gmail.com">alejandrolinares6520@gmail.com</a></p>
+  </footer>
+
+  <!-- Privacy & Compliance -->
+  <section id="privacy" class="privacy">
+    <h2 data-en="Privacy & Compliance" data-es="Privacidad y Cumplimiento">Privacy & Compliance</h2>
+    
+    <div class="privacy-intro">
+      <p class="lead" data-en="WTApp is built with privacy-first design and full compliance with app store policies and data protection regulations." data-es="WTApp está construido con diseño centrado en la privacidad y cumplimiento total de las políticas de tiendas de aplicaciones y regulaciones de protección de datos.">WTApp is built with privacy-first design and full compliance with app store policies and data protection regulations.</p>
+    </div>
+
+    <div class="privacy-grid">
+      <div class="privacy-card">
+        <div class="privacy-icon">🔒</div>
+        <h3 data-en="Zero Data Collection" data-es="Cero Recopilación de Datos">Zero Data Collection</h3>
+        <p data-en="We do NOT collect, store, transmit, or share any personal information. All processing happens locally on your device." data-es="NO recopilamos, almacenamos, transmitimos ni compartimos información personal. Todo el procesamiento ocurre localmente en tu dispositivo.">We do NOT collect, store, transmit, or share any personal information. All processing happens locally on your device.</p>
+        <ul class="privacy-list">
+          <li data-en="No conversation content stored" data-es="No se almacena contenido de conversaciones">No conversation content stored</li>
+          <li data-en="No contact information collected" data-es="No se recopila información de contactos">No contact information collected</li>
+          <li data-en="No location tracking" data-es="Sin rastreo de ubicación">No location tracking</li>
+          <li data-en="No usage analytics" data-es="Sin analíticas de uso">No usage analytics</li>
+        </ul>
+      </div>
+
+      <div class="privacy-card">
+        <div class="privacy-icon">📱</div>
+        <h3 data-en="On-Device Processing" data-es="Procesamiento en el Dispositivo">On-Device Processing</h3>
+        <p data-en="Voice recognition runs entirely offline using Vosk models installed on your phone. Your conversations never leave your device." data-es="El reconocimiento de voz funciona completamente offline usando modelos Vosk instalados en tu teléfono. Tus conversaciones nunca salen de tu dispositivo.">Voice recognition runs entirely offline using Vosk models installed on your phone. Your conversations never leave your device.</p>
+        <ul class="privacy-list">
+          <li data-en="Offline voice recognition" data-es="Reconocimiento de voz offline">Offline voice recognition</li>
+          <li data-en="No audio recordings saved" data-es="No se guardan grabaciones de audio">No audio recordings saved</li>
+          <li data-en="Temporary processing only" data-es="Solo procesamiento temporal">Temporary processing only</li>
+          <li data-en="Complete user control" data-es="Control total del usuario">Complete user control</li>
+        </ul>
+      </div>
+
+      <div class="privacy-card">
+        <div class="privacy-icon">⚖️</div>
+        <h3 data-en="Independent Third-Party App" data-es="Aplicación de Terceros Independiente">Independent Third-Party App</h3>
+        <p data-en="WTApp is completely independent and NOT affiliated with WhatsApp Inc. or Meta Platforms Inc. We operate as an accessibility layer without modifying WhatsApp." data-es="WTApp es completamente independiente y NO está afiliado con WhatsApp Inc. o Meta Platforms Inc. Operamos como una capa de accesibilidad sin modificar WhatsApp.">WTApp is completely independent and NOT affiliated with WhatsApp Inc. or Meta Platforms Inc. We operate as an accessibility layer without modifying WhatsApp.</p>
+        <ul class="privacy-list">
+          <li data-en="No WhatsApp database access" data-es="Sin acceso a la base de datos de WhatsApp">No WhatsApp database access</li>
+          <li data-en="No interference with encryption" data-es="Sin interferencia con el cifrado">No interference with encryption</li>
+          <li data-en="Accessibility service only" data-es="Solo servicio de accesibilidad">Accessibility service only</li>
+          <li data-en="Respects WhatsApp ToS" data-es="Respeta los términos de WhatsApp">Respects WhatsApp ToS</li>
+        </ul>
+      </div>
+
+      <div class="privacy-card">
+        <div class="privacy-icon">✅</div>
+        <h3 data-en="Full Compliance" data-es="Cumplimiento Total">Full Compliance</h3>
+        <p data-en="We comply with Google Play policies, GDPR, CCPA, and all applicable data protection regulations. Transparent permission usage and user rights respected." data-es="Cumplimos con las políticas de Google Play, GDPR, CCPA y todas las regulaciones de protección de datos aplicables. Uso transparente de permisos y derechos del usuario respetados.">We comply with Google Play policies, GDPR, CCPA, and all applicable data protection regulations. Transparent permission usage and user rights respected.</p>
+        <ul class="privacy-list">
+          <li data-en="Google Play compliant" data-es="Cumple con Google Play">Google Play compliant</li>
+          <li data-en="GDPR & CCPA ready" data-es="Listo para GDPR y CCPA">GDPR & CCPA ready</li>
+          <li data-en="Transparent permissions" data-es="Permisos transparentes">Transparent permissions</li>
+          <li data-en="User rights protected" data-es="Derechos del usuario protegidos">User rights protected</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="privacy-note">
+      <h4 data-en="How WTApp Works with WhatsApp" data-es="Cómo Funciona WTApp con WhatsApp">How WTApp Works with WhatsApp</h4>
+      <p data-en="WTApp uses Android's Accessibility Services to display translation overlays during WhatsApp calls and messages. This is similar to how screen readers and other accessibility tools work. We do NOT:" data-es="WTApp utiliza los Servicios de Accesibilidad de Android para mostrar superposiciones de traducción durante llamadas y mensajes de WhatsApp. Esto es similar a cómo funcionan los lectores de pantalla y otras herramientas de accesibilidad. NO:">WTApp uses Android's Accessibility Services to display translation overlays during WhatsApp calls and messages. This is similar to how screen readers and other accessibility tools work. We do NOT:</p>
+      <ul class="privacy-list-inline">
+        <li data-en="Modify WhatsApp's code or functionality" data-es="Modificamos el código o funcionalidad de WhatsApp">Modify WhatsApp's code or functionality</li>
+        <li data-en="Access WhatsApp's encrypted messages" data-es="Accedemos a los mensajes cifrados de WhatsApp">Access WhatsApp's encrypted messages</li>
+        <li data-en="Intercept or store conversations" data-es="Interceptamos o almacenamos conversaciones">Intercept or store conversations</li>
+        <li data-en="Send data through WhatsApp servers" data-es="Enviamos datos a través de los servidores de WhatsApp">Send data through WhatsApp servers</li>
+      </ul>
+      <p class="privacy-disclaimer" data-en="WhatsApp and the WhatsApp logo are registered trademarks of WhatsApp Inc. Use of these names is for descriptive purposes only to indicate app compatibility." data-es="WhatsApp y el logotipo de WhatsApp son marcas registradas de WhatsApp Inc. El uso de estos nombres es solo con fines descriptivos para indicar compatibilidad de la aplicación.">WhatsApp and the WhatsApp logo are registered trademarks of WhatsApp Inc. Use of these names is for descriptive purposes only to indicate app compatibility.</p>
+    </div>
+  </section>
+
+  <script>
+    let currentLang = 'en';
+
+    function switchLanguage(lang) {
+      currentLang = lang;
+      document.documentElement.lang = lang;
+      
+      // Update button states
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.remove('active');
+      });
+      document.getElementById('lang-' + lang).classList.add('active');
+      
+      // Update all elements with data attributes
+      document.querySelectorAll('[data-en][data-es]').forEach(element => {
+        const text = element.getAttribute('data-' + lang);
+        if (text) {
+          element.textContent = text;
+        }
+      });
+      
+      // Save preference
+      localStorage.setItem('preferredLanguage', lang);
+    }
+
+    // Load saved language preference on page load
+    window.addEventListener('DOMContentLoaded', () => {
+      const savedLang = localStorage.getItem('preferredLanguage');
+      if (savedLang && savedLang !== 'en') {
+        switchLanguage(savedLang);
+      }
+    });
+  </script>
+</body>
+</html>
