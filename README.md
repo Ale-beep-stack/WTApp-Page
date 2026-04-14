@@ -5,7 +5,6 @@ Sitio web de presentación para WTApp, una aplicación Android que integra tradu
 ## Estructura del Proyecto
 
 ```
-WTApp_CoreNest/
 ├── index.html          # Página principal del sitio
 ├── style.css           # Estilos del sitio
 └── imagenes/           # Recursos gráficos
@@ -19,7 +18,7 @@ WTApp_CoreNest/
 
 ## Cómo usar
 
-1. Abre `WTApp_CoreNest/index.html` en tu navegador
+1. Abre `index.html` en tu navegador o visita el sitio en GitHub Pages
 2. El sitio incluye un selector de idioma (EN/ES) en la esquina superior derecha
 3. Todas las imágenes y recursos están en la carpeta `imagenes/`
 
