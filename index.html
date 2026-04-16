@@ -463,51 +463,6 @@
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="contact">
-    <h2 data-en="Get in Touch" data-es="Ponte en Contacto">Get in Touch</h2>
-    <p class="lead" data-en="Interested in WTApp? Let's talk." data-es="¿Interesado en WTApp? Hablemos.">Interested in WTApp? Let's talk.</p>
-    
-    <div class="contact-container">
-      <div class="contact-info">
-        <h3 data-en="Contact Information" data-es="Información de Contacto">Contact Information</h3>
-        <p><strong data-en="Email:" data-es="Correo:">Email:</strong> <a href="mailto:alejandrolinares6520@gmail.com">alejandrolinares6520@gmail.com</a></p>
-        <p data-en="Whether you're an investor, potential partner, or interested user, we'd love to hear from you." data-es="Ya seas un inversor, socio potencial o usuario interesado, nos encantaría saber de ti.">Whether you're an investor, potential partner, or interested user, we'd love to hear from you.</p>
-      </div>
-      
-      <div class="contact-form">
-        <h3 data-en="Send a Message" data-es="Enviar un Mensaje">Send a Message</h3>
-        <form action="https://formspree.io/f/xanyqbvg" method="POST">
-          <div class="form-group">
-            <label for="name" data-en="Name:" data-es="Nombre:">Name:</label>
-            <input type="text" id="name" name="name" required>
-          </div>
-          <div class="form-group">
-            <label for="email" data-en="Email:" data-es="Correo:">Email:</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div class="form-group">
-            <label for="message" data-en="Message:" data-es="Mensaje:">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary" data-en="Send Message" data-es="Enviar Mensaje">Send Message</button>
-        </form>
-      </div>
-    </div>
-    
-    <div class="cta-final">
-      <h3 data-en="Ready to break language barriers?" data-es="¿Listo para romper las barreras del idioma?">Ready to break language barriers?</h3>
-      <div class="cta-buttons">
-        <a href="mailto:alejandrolinares6520@gmail.com?subject=Investment%20Inquiry" class="btn btn-primary" data-en="Interested? Let's talk." data-es="¿Interesado? Hablemos.">Interested? Let's talk.</a>
-        <a href="mailto:alejandrolinares6520@gmail.com?subject=Beta%20Access%20Request" class="btn btn-secondary" data-en="Join Beta" data-es="Únete al Beta">Join Beta</a>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2026 WTApp. <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></p>
-  </footer>
-
   <!-- Privacy & Compliance -->
   <section id="privacy" class="privacy">
     <h2 data-en="Privacy & Compliance" data-es="Privacidad y Cumplimiento">Privacy & Compliance</h2>
@@ -579,6 +534,52 @@
     </div>
   </section>
 
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2 data-en="Get in Touch" data-es="Ponte en Contacto">Get in Touch</h2>
+    <p class="lead" data-en="Interested in WTApp? Let's talk." data-es="¿Interesado en WTApp? Hablemos.">Interested in WTApp? Let's talk.</p>
+    
+    <div class="contact-container">
+      <div class="contact-info">
+        <h3 data-en="Contact Information" data-es="Información de Contacto">Contact Information</h3>
+        <p><strong data-en="Email:" data-es="Correo:">Email:</strong> <a href="mailto:alejandrolinares6520@gmail.com">alejandrolinares6520@gmail.com</a></p>
+        <p data-en="Whether you're an investor, potential partner, or interested user, we'd love to hear from you." data-es="Ya seas un inversor, socio potencial o usuario interesado, nos encantaría saber de ti.">Whether you're an investor, potential partner, or interested user, we'd love to hear from you.</p>
+      </div>
+      
+      <div class="contact-form">
+        <h3 data-en="Send a Message" data-es="Enviar un Mensaje">Send a Message</h3>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name" data-en="Name:" data-es="Nombre:">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email" data-en="Email:" data-es="Correo:">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message" data-en="Message:" data-es="Mensaje:">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" data-en="Send Message" data-es="Enviar Mensaje">Send Message</button>
+        </form>
+        <p id="formStatus" style="margin-top: 15px; display: none;"></p>
+      </div>
+    </div>
+    
+    <div class="cta-final">
+      <h3 data-en="Ready to break language barriers?" data-es="¿Listo para romper las barreras del idioma?">Ready to break language barriers?</h3>
+      <div class="cta-buttons">
+        <a href="mailto:alejandrolinares6520@gmail.com?subject=Investment%20Inquiry" class="btn btn-primary" data-en="Interested? Let's talk." data-es="¿Interesado? Hablemos.">Interested? Let's talk.</a>
+        <a href="mailto:alejandrolinares6520@gmail.com?subject=Beta%20Access%20Request" class="btn btn-secondary" data-en="Join Beta" data-es="Únete al Beta">Join Beta</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 WTApp. <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></p>
+  </footer>
+
   <script>
     let currentLang = 'en';
 
@@ -610,6 +611,46 @@
       if (savedLang && savedLang !== 'en') {
         switchLanguage(savedLang);
       }
+    });
+  </script>
+
+  <script>
+    // Handle contact form submission
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+      const status = document.getElementById('formStatus');
+      
+      // Create mailto link with form data
+      const subject = encodeURIComponent('WTApp Contact Form - Message from ' + name);
+      const body = encodeURIComponent(
+        'Name: ' + name + '\n' +
+        'Email: ' + email + '\n\n' +
+        'Message:\n' + message
+      );
+      
+      const mailtoLink = 'mailto:alejandrolinares6520@gmail.com?subject=' + subject + '&body=' + body;
+      
+      // Open email client
+      window.location.href = mailtoLink;
+      
+      // Show success message
+      status.style.display = 'block';
+      status.style.color = '#28a745';
+      status.textContent = currentLang === 'en' 
+        ? 'Opening your email client... If it doesn\'t open, please email us directly at alejandrolinares6520@gmail.com'
+        : 'Abriendo tu cliente de correo... Si no se abre, por favor envíanos un correo directamente a alejandrolinares6520@gmail.com';
+      
+      // Reset form
+      setTimeout(() => {
+        this.reset();
+        setTimeout(() => {
+          status.style.display = 'none';
+        }, 5000);
+      }, 1000);
     });
   </script>
 </body>
