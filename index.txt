@@ -41,21 +41,6 @@
     </div>
   </section>
 
-  <!-- About the Founder -->
-  <section id="founder" class="founder">
-    <h2 data-en="About the Founder" data-es="Sobre el Fundador">About the Founder</h2>
-    <div class="founder-content">
-      <div class="founder-image">
-        <img src="imagenes/perfil.jpeg" alt="Miguel Alejandro Linares">
-      </div>
-      <div class="founder-bio">
-        <h3>Miguel Alejandro Linares</h3>
-        <p data-en="Founder of WTApp, Computer Engineering student at the University of El Salvador. Passionate about technological innovation and eliminating communication barriers in Latin America." data-es="Fundador de WTApp, estudiante de Ingeniería en Computación en la Universidad de El Salvador. Apasionado por la innovación tecnológica y por eliminar barreras de comunicación en Latinoamérica.">Founder of WTApp, Computer Engineering student at the University of El Salvador. Passionate about technological innovation and eliminating communication barriers in Latin America.</p>
-        <p data-en="With a deep understanding of the challenges faced by Spanish speakers in global communication, Miguel created WTApp to bridge language gaps and empower people to connect without limits." data-es="Con un profundo entendimiento de los desafíos que enfrentan los hispanohablantes en la comunicación global, Miguel creó WTApp para cerrar las brechas lingüísticas y empoderar a las personas para conectarse sin límites.">With a deep understanding of the challenges faced by Spanish speakers in global communication, Miguel created WTApp to bridge language gaps and empower people to connect without limits.</p>
-      </div>
-    </div>
-  </section>
-
   <!-- What is WTApp -->
   <section id="about" class="about">
     <h2 data-en="What is WTApp?" data-es="¿Qué es WTApp?">What is WTApp?</h2>
@@ -408,104 +393,9 @@
     </div>
   </section>
 
-  <!-- Validation & Credibility -->
-  <section id="validation" class="validation">
-    <h2 data-en="Validation & Credibility" data-es="Validación y Credibilidad">Validation & Credibility</h2>
-    <div class="validation-grid">
-      <div class="validation-item">
-        <h3 data-en="Functional MVP" data-es="MVP Funcional">Functional MVP</h3>
-        <p data-en="WTApp is already a fully working Android application with real-time translation for both messages and calls." data-es="WTApp ya es una aplicación Android completamente funcional con traducción en tiempo real tanto para mensajes como para llamadas.">WTApp is already a fully working Android application with real-time translation for both messages and calls.</p>
-      </div>
-      <div class="validation-item">
-        <h3 data-en="Beta Testing" data-es="Pruebas Beta">Beta Testing</h3>
-        <p data-en="Successfully tested with early users, validating the core functionality and confirming the seamless user experience." data-es="Probado exitosamente con usuarios tempranos, validando la funcionalidad principal y confirmando la experiencia de usuario fluida.">Successfully tested with early users, validating the core functionality and confirming the seamless user experience.</p>
-      </div>
-      <div class="validation-item">
-        <h3 data-en="CoreNest Evaluation" data-es="Evaluación CoreNest">CoreNest Evaluation</h3>
-        <p data-en="Currently under review in the CoreNest Accelerator 2025, competing among high-quality startups in Latin America." data-es="Actualmente bajo revisión en CoreNest Accelerator 2025, compitiendo entre startups de alta calidad en América Latina.">Currently under review in the CoreNest Accelerator 2025, competing among high-quality startups in Latin America.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonial -->
-  <section id="testimonial" class="testimonial">
-    <h2 data-en="What Users Say" data-es="Lo Que Dicen los Usuarios">What Users Say</h2>
-    <div class="testimonial-card">
-      <p data-en="WTApp helped me connect with clients abroad effortlessly. It feels like having a personal interpreter inside WhatsApp." data-es="WTApp me ayudó a conectar con clientes en el extranjero sin esfuerzo. Se siente como tener un intérprete personal dentro de WhatsApp.">"WTApp helped me connect with clients abroad effortlessly. It feels like having a personal interpreter inside WhatsApp."</p>
-      <span data-en="- Early Beta User" data-es="- Usuario Beta Temprano">- Early Beta User</span>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section id="faq" class="faq">
-    <h2 data-en="Frequently Asked Questions" data-es="Preguntas Frecuentes">Frequently Asked Questions</h2>
-    <div class="faq-container">
-      <div class="faq-item">
-        <h3 data-en="Does WTApp work on iOS?" data-es="¿WTApp funciona en iOS?">Does WTApp work on iOS?</h3>
-        <p data-en="Currently, WTApp is available only for Android. An iOS version is planned for development after securing investment, as it requires different technical approaches due to iOS restrictions." data-es="Actualmente, WTApp está disponible solo para Android. Una versión iOS está planeada para desarrollo después de asegurar inversión, ya que requiere enfoques técnicos diferentes debido a las restricciones de iOS.">Currently, WTApp is available only for Android. An iOS version is planned for development after securing investment, as it requires different technical approaches due to iOS restrictions.</p>
-      </div>
-      <div class="faq-item">
-        <h3 data-en="How many languages does WTApp support?" data-es="¿Cuántos idiomas soporta WTApp?">How many languages does WTApp support?</h3>
-        <p data-en="WTApp supports 20 languages: Spanish, English, French, German, Italian, Portuguese, Russian, Chinese, Japanese, Korean, Arabic, Hindi, Dutch, Turkish, Polish, Thai, Vietnamese, Indonesian, Malay, and Swedish." data-es="WTApp soporta 20 idiomas: Español, Inglés, Francés, Alemán, Italiano, Portugués, Ruso, Chino, Japonés, Coreano, Árabe, Hindi, Neerlandés, Turco, Polaco, Tailandés, Vietnamita, Indonesio, Malayo y Sueco.">WTApp supports 20 languages: Spanish, English, French, German, Italian, Portuguese, Russian, Chinese, Japanese, Korean, Arabic, Hindi, Dutch, Turkish, Polish, Thai, Vietnamese, Indonesian, Malay, and Swedish.</p>
-      </div>
-      <div class="faq-item">
-        <h3 data-en="How does WTApp protect my privacy?" data-es="¿Cómo protege WTApp mi privacidad?">How does WTApp protect my privacy?</h3>
-        <p data-en="WTApp uses on-device voice recognition (Vosk), so your audio never leaves your phone. Only text is sent to translation servers, and we don't store any conversation data. Your privacy is our top priority." data-es="WTApp usa reconocimiento de voz en el dispositivo (Vosk), por lo que tu audio nunca sale de tu teléfono. Solo se envía texto a los servidores de traducción, y no almacenamos ningún dato de conversación. Tu privacidad es nuestra máxima prioridad.">WTApp uses on-device voice recognition (Vosk), so your audio never leaves your phone. Only text is sent to translation servers, and we don't store any conversation data. Your privacy is our top priority.</p>
-      </div>
-      <div class="faq-item">
-        <h3 data-en="Is WTApp free?" data-es="¿WTApp es gratis?">Is WTApp free?</h3>
-        <p data-en="WTApp offers a free plan with 100 translations per month. For unlimited translations and premium features, we offer a Premium plan at $2.99/month and Business plans for teams." data-es="WTApp ofrece un plan gratuito con 100 traducciones por mes. Para traducciones ilimitadas y funciones premium, ofrecemos un plan Premium a $2.99/mes y planes Business para equipos.">WTApp offers a free plan with 100 translations per month. For unlimited translations and premium features, we offer a Premium plan at $2.99/month and Business plans for teams.</p>
-      </div>
-      <div class="faq-item">
-        <h3 data-en="Does WTApp require an internet connection?" data-es="¿WTApp requiere conexión a internet?">Does WTApp require an internet connection?</h3>
-        <p data-en="Voice recognition works offline, but translation requires an internet connection to access translation APIs. We're exploring offline translation options for future versions." data-es="El reconocimiento de voz funciona sin conexión, pero la traducción requiere conexión a internet para acceder a las APIs de traducción. Estamos explorando opciones de traducción sin conexión para versiones futuras.">Voice recognition works offline, but translation requires an internet connection to access translation APIs. We're exploring offline translation options for future versions.</p>
-      </div>
-    </div>
-  </section>
-
   <!-- Contact -->
-  <section id="contact" class="contact">
-    <h2 data-en="Get in Touch" data-es="Ponte en Contacto">Get in Touch</h2>
-    <p class="lead" data-en="Interested in WTApp? Let's talk." data-es="¿Interesado en WTApp? Hablemos.">Interested in WTApp? Let's talk.</p>
-    
-    <div class="contact-container">
-      <div class="contact-info">
-        <h3 data-en="Contact Information" data-es="Información de Contacto">Contact Information</h3>
-        <p><strong data-en="Email:" data-es="Correo:">Email:</strong> <a href="mailto:alejandrolinares6520@gmail.com">alejandrolinares6520@gmail.com</a></p>
-        <p data-en="Whether you're an investor, potential partner, or interested user, we'd love to hear from you." data-es="Ya seas un inversor, socio potencial o usuario interesado, nos encantaría saber de ti.">Whether you're an investor, potential partner, or interested user, we'd love to hear from you.</p>
-      </div>
-      
-      <div class="contact-form">
-        <h3 data-en="Send a Message" data-es="Enviar un Mensaje">Send a Message</h3>
-        <form action="mailto:alejandrolinares6520@gmail.com" method="post" enctype="text/plain">
-          <div class="form-group">
-            <label for="name" data-en="Name:" data-es="Nombre:">Name:</label>
-            <input type="text" id="name" name="name" required>
-          </div>
-          <div class="form-group">
-            <label for="email" data-en="Email:" data-es="Correo:">Email:</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div class="form-group">
-            <label for="message" data-en="Message:" data-es="Mensaje:">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary" data-en="Send Message" data-es="Enviar Mensaje">Send Message</button>
-        </form>
-      </div>
-    </div>
-    
-    <div class="cta-final">
-      <h3 data-en="Ready to break language barriers?" data-es="¿Listo para romper las barreras del idioma?">Ready to break language barriers?</h3>
-      <div class="cta-buttons">
-        <a href="mailto:alejandrolinares6520@gmail.com?subject=Investment Inquiry" class="btn btn-primary" data-en="Interested? Let's talk." data-es="¿Interesado? Hablemos.">Interested? Let's talk.</a>
-        <a href="mailto:alejandrolinares6520@gmail.com?subject=Beta Access Request" class="btn btn-secondary" data-en="Join Beta" data-es="Únete al Beta">Join Beta</a>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 WTApp. <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></p>
+  <footer id="contact">
+    <p><span data-en="Interested in WTApp? Contact us at" data-es="¿Interesado en WTApp? Contáctanos en">Interested in WTApp? Contact us at</span> <a href="mailto:alejandrolinares6520@gmail.com">alejandrolinares6520@gmail.com</a></p>
   </footer>
 
   <!-- Privacy & Compliance -->

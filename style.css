@@ -1160,3 +1160,295 @@ html {
   background: #0078D7;
   color: #FFFFFF;
 }
+
+/* About the Founder */
+.founder {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.founder-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.founder-image {
+  flex: 0 0 250px;
+}
+
+.founder-image img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  border: 5px solid white;
+}
+
+.founder-bio {
+  flex: 1;
+  min-width: 300px;
+}
+
+.founder-bio h3 {
+  font-size: 28px;
+  color: #2C3E50;
+  margin-bottom: 15px;
+}
+
+.founder-bio p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Validation */
+.validation {
+  padding: 80px 20px;
+  background: white;
+}
+
+.validation-grid {
+  max-width: 1200px;
+  margin: 40px auto 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.validation-item {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.validation-item:hover {
+  transform: translateY(-5px);
+}
+
+.validation-item h3 {
+  font-size: 22px;
+  color: #00A4EF;
+  margin-bottom: 15px;
+}
+
+.validation-item p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Testimonial */
+.testimonial {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #00A4EF 0%, #0078D7 100%);
+  color: white;
+  text-align: center;
+}
+
+.testimonial h2 {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.testimonial-card {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.1);
+  padding: 40px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+.testimonial-card p {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.testimonial-card span {
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+/* FAQ */
+.faq {
+  padding: 80px 20px;
+  background: white;
+}
+
+.faq-container {
+  max-width: 900px;
+  margin: 40px auto 0;
+}
+
+.faq-item {
+  background: #f8f9fa;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  border-left: 4px solid #00A4EF;
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+  background: #e9ecef;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.faq-item h3 {
+  font-size: 20px;
+  color: #2C3E50;
+  margin-bottom: 12px;
+}
+
+.faq-item p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin: 0;
+}
+
+/* Contact */
+.contact {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+}
+
+.contact-info {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.contact-info h3 {
+  font-size: 24px;
+  color: #2C3E50;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.contact-info a {
+  color: #00A4EF;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.contact-form h3 {
+  font-size: 24px;
+  color: #2C3E50;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2C3E50;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #00A4EF;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.cta-final {
+  max-width: 800px;
+  margin: 60px auto 0;
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.cta-final h3 {
+  font-size: 28px;
+  color: #2C3E50;
+  margin-bottom: 30px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .founder-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .founder-image {
+    flex: 0 0 200px;
+  }
+  
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+  }
+  
+  .cta-buttons .btn {
+    width: 100%;
+  }
+}
